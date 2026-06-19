@@ -1,0 +1,12 @@
+{
+  "name": "soyal-portfolio",
+  "version": "1.0.0",
+  "description": "Soyal Chawhan - Full Stack Developer Portfolio (MERN + Vite)",
+  "private": true,
+  "scripts": {
+    "install:all": "cd client && npm install && cd ../server && npm install",
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev",
+    "build": "cd client && npm run build"
+  }
+}
